@@ -27,5 +27,10 @@ void insertion_sort_list(listint_t **list);
 int divisions(int *array, int begin, int end, size_t size);
 void quick_sort_rec(int *array, int begin, int end, size_t size);
 void quick_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void swap_list(listint_t *tmp, listint_t *tmp2, listint_t **list);
+void shell_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
 
 #endif /* SORT_H */
+
